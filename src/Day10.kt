@@ -74,7 +74,6 @@ fun main() {
             var score: Long  = 0
             for (s in string) {
                 score = (score * 5) + (pointsForCompletion[s] ?: 0)
-
             }
             scores.add(score)
         }
